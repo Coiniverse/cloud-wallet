@@ -1,10 +1,57 @@
 a:hover {
 	text-decoration: none;
 }
-/*
-button {
+
+.login-link-text {
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 5px -18px;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(13, 189, 168);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 5px -18px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: auto;
+	display: block;
+	float: none;
+	font-family: Montserrat, sans-serif;
 	font-size: 16px;
-}*/
+	font-weight: normal;
+	height: 38px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	margin-left: 23px;
+	margin-right: 0px;
+	margin-top: -7px;
+	opacity: 1;
+	padding-bottom: 9px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 9px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: background-color;
+	transition-timing-function: ease;
+	min-width: 117px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
 
 .navbar {
 	padding-left: 10px;

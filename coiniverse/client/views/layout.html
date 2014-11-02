@@ -1,5 +1,4 @@
 <template name="layout">
-
   <header class="navbar">
     <div class="w-container">
       <div class="w-row header">
@@ -8,32 +7,15 @@
         </div>
         <div class="w-col w-col-5 nav-column">
           <a class="nav-link" href="/wallet">History</a>
-          <a class="nav-link" href="/transactions">Send Money</a>
+          <a class="nav-link" href="/contacts">Send Money</a>
         </div>
-        {{#if currentUser}}
           <div class="login-buttons">
             {{> loginButtons align="right"}}
           </div>
-        {{else}}
-          <div class="w-col w-col-2 nav-signup"><a class="button-top button" href="#">SIGN UP</a>
-          </div>
-        {{/if}}
       </div>
     </div>
   </header>
-  <div class="section hero">
-    <div class="w-container">
-      <div class="w-row">
-        <div class="w-col w-col-2"></div>
-        <div class="w-col w-col-8 call-to-action">
-          <h1 class="hero-header subheading">
-            {{header_text}}
-          </h1>
-        </div>
-        <div class="w-col w-col-2"></div>
-      </div>
-    </div>
-  </div>
+  {{> header }}
   <div class="w-container">
     <div class="yield">
       {{> yield}}
@@ -55,5 +37,21 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</template>
+
+<template name="header">
+  <div class="section hero">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-2"></div>
+        <div class="w-col w-col-8 call-to-action">
+          <h1 class="hero-header subheading">
+            {{header_text}}
+          </h1>
+        </div>
+        <div class="w-col w-col-2"></div>
+      </div>
+    </div>
+  </div>
 </template>
 
