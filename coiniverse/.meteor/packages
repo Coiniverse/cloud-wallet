@@ -12,4 +12,5 @@ iron:router
 fourseven:scss
 accounts-password
 accounts-ui
+jquery
 

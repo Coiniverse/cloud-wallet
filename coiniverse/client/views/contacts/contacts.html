@@ -1,5 +1,11 @@
 <template name="contacts">
-	<h3>
-	Look at this awesome Contact List
-	</h3>
+	{{ #each contacts }}
+		<div class="contact">
+      {{> contact}}
+    </div>
+	{{ /each }}
+</template>
+
+<template name="contact">
+	{{ name }} - {{ email }}
 </template>

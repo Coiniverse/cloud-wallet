@@ -1,10 +1,24 @@
+.navbar {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: lightblue;
+}
+
 .login-buttons {
 	float: right;
 }
 
 .sidebar {
+	background-color: lightblue;
+	height: 100%;
+	width: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	float: left;
 	ul {
+		li {
+			padding-top: 5px;
+		}
 		margin-left: 10px;
 		padding: 0;
 		list-style: none;

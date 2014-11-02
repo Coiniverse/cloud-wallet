@@ -1,5 +1,11 @@
 <template name="transactions">
-	<h3>
-	Transactions List
-	</h3>
+	{{ #each transactions }}
+		<div id="transaction">
+			{{> transaction}}
+		</div>
+	{{ /each }}
+</template>
+
+<template name="transaction">
+	{{ sender }} - {{ receiver }} - {{ amount }}
 </template>
