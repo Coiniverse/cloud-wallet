@@ -1,5 +1,4 @@
-class Blockchain ->
+class Blockchain
 	constructor: () ->
 
 	create_wallet: () ->
-		

@@ -1,2 +1,2 @@
-class Account ->
+class Account
 	constructor: () ->
