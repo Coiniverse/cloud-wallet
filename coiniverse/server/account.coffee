@@ -9,4 +9,4 @@ Accounts.onCreateUser (options, user) ->
 Meteor.publish 'userData', () ->
   if(!this.userId)
   	return null
-  Meteor.users.find {_id: this.userId}, {fields: {'contacts': 1, 'transactions': 1, 'balance': 1}}
+  Meteor.users.find {}, {fields: {'contacts': 1, 'transactions': 1, 'balance': 1}}

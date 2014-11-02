@@ -1,7 +1,14 @@
+a:hover {
+	text-decoration: none;
+}
+/*
+button {
+	font-size: 16px;
+}*/
+
 .navbar {
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: lightblue;
 }
 
 .login-buttons {
@@ -28,4 +35,10 @@
 .login-link-text {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
+}
+
+.yield {
+	* {
+		margin-top: 10px;
+	}
 }
